@@ -7,5 +7,5 @@ estimation.
 
 |Dataset | type | #vars | #train | #valid | #test | density |
 |introduced in| abbrv |
-|:------|:---:|---:|---:|---:|---:|---:|---:|
+|:------|:---:|---:|---:|---:|---:|---:|---:| ---:|
 |*Accidents*| binary | 111 | 12758 | 1700 | 2551 | ||`accidents`|
