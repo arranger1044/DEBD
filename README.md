@@ -5,6 +5,7 @@ estimation.
 
 ## Datasets
 
-|Dataset | type | #features | #train | #valid | #test | density | introduced in|
+|Dataset | type | #vars | #train | #valid | #test | density |
+|introduced in| abbrv |
 |:------|:---:|---:|---:|---:|---:|---:|---:|
-|Accidents| binary | 111 | 12758 | 1700 | 2551 | ||
+|*Accidents*| binary | 111 | 12758 | 1700 | 2551 | ||`accidents`|
