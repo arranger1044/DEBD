@@ -37,5 +37,5 @@ Structure with Decision Trees*][Lowd2010]. ICDM 2010
 <b id="f2">2</b> Jan Van Haaren, Jesse Davis: [*Markov Network
 Structure Learning: A Randomized Feature Generation Approach*][VanHaaren2012]. AAAI 2012
 
-[Lowd2010] : http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
-[VanHaaren2012] : http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5107/5534
+[Lowd2010]: http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
+[VanHaaren2012]: http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5107/5534
