@@ -1,4 +1,4 @@
-# Density Estimation Benchhmark Datasets
+# Density Estimation Benchmark Datasets
 
 A collection of datasets used in machine learning for density
 estimation.
@@ -29,10 +29,13 @@ estimation.
 |**Ad**<sup id="a2">[2](#f2)</sup>| binary | 1556 | 2461 | 327 | 491 | 0.008|`ad`|
 
 
+## Introduced in:
 
-<b id="f1">1</b> Daniel Lowd, Jesse Davis: *Learning Markov Network
-Structure with Decision Trees*. ICDM 2010
+<b id="f1">1</b> Daniel Lowd, Jesse Davis: [*Learning Markov Network
+Structure with Decision Trees*][Lowd2010]. ICDM 2010
 
-<b id="f2">2</b> Jan Van Haaren, Jesse Davis: *Markov Network
-Structure Learning: A Randomized Feature Generation Approach*. AAAI 2012
+<b id="f2">2</b> Jan Van Haaren, Jesse Davis: [*Markov Network
+Structure Learning: A Randomized Feature Generation Approach*][VanHaaren2012]. AAAI 2012
 
+[Lowd2010] : http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
+[VanHaaren2012] : http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5107/5534
