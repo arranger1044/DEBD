@@ -1,0 +1,27 @@
+Data splits shapes:
+	train: (8700, 500)
+	valid: (1159, 500)
+	test: (1739, 500)
+Unique instances in splits:
+	# all instances train: 8700 -> 8447
+	# all instances valid: 1159 -> 1154
+	# all instances test: 1739 -> 1723
+Overlapping instances:
+	overlapping instances from train to valid:	60
+	overlapping instances from train to test:	91
+	overlapping instances from valid to test:	23
+	overlapping instances among ['train', 'valid', 'test']: 15
+Merged splits shape: (11598, 500)
+Shapes after resampling:
+	train: (8373, 500)
+	valid: (1116, 500)
+	test: (1676, 500)
+Unique instances in splits:
+	# all instances train: 8373 -> 8373
+	# all instances valid: 1116 -> 1116
+	# all instances test: 1676 -> 1676
+Overlapping instances:
+	overlapping instances from train to valid:	0
+	overlapping instances from train to test:	0
+	overlapping instances from valid to test:	0
+	overlapping instances among ['train', 'valid', 'test']: 0
