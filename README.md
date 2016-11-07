@@ -27,8 +27,8 @@ estimation.
 |**20 NewsGroup**<sup id="a1">[1](#f1)</sup>| binary | 910 | 11293 | 3764 | 3764 | 0.049|`c20ng`|
 |**BBC**<sup id="a2">[2](#f2)</sup>| binary | 1058 | 1670 | 225 | 330 | 0.078|`bbc`|
 |**Ad**<sup id="a2">[2](#f2)</sup>| binary | 1556 | 2461 | 327 | 491 | 0.008|`ad`|
-|**voting**<sup id="a1">[3](#f3)</sup>| binary | 1359 | 1214 | 200| 350| ?|`voting`|
-|**movie reviews**<sup id="a1">[3](#f3)</sup>| binary | 1001 | 1600 | 150 | 250 | ? |`moviereview`|
+|**voting**<sup id="a1">[3](#f3)</sup>| binary | 1359 | 1214 | 200| 350| 0.333|`voting`|
+|**movie reviews**<sup id="a1">[3](#f3)</sup>| binary | 1001 | 1600 | 150 | 250 | 0.140 |`moviereview`|
 
 
 ## Introduced in:
