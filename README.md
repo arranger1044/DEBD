@@ -39,7 +39,7 @@ Structure with Decision Trees*][Lowd2010]. ICDM 2010
 <b id="f2">2</b> Jan Van Haaren, Jesse Davis: [*Markov Network
 Structure Learning: A Randomized Feature Generation Approach*][VanHaaren2012]. AAAI 2012
 
-<b id="f3">2</b> Jessa Bekker, Jesse Davis, Arthur Choi, Adnan Darwiche, Guy Van den Broeck: [*Tractable Learning 
+<b id="f3">3</b> Jessa Bekker, Jesse Davis, Arthur Choi, Adnan Darwiche, Guy Van den Broeck: [*Tractable Learning 
 for Complex Probability Queries*][Bekker2015]. NIPS 2015
 
 [Lowd2010]: http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
