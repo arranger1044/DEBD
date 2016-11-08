@@ -48,4 +48,4 @@ For each dataset (training data, validation data and test data) there are the fo
  - voting.<dataset>.wdata
       Each line is a unique example. The line starts with a weight which indicates how many times this example appears in the dataset.
 
-voting_h110.info contains one line per congressman. It gives their id, name and party.
+voting_h110_people.info contains one line per congressman. It gives their id, name and party. The order of the congressmen is the same as the variable ordering in the datasets. For example, Neil Abercrombie is the first congressman of the info file, the first variable is that he voted "yes", the second that he voted "no" and the third variable that his vote is unknown.
