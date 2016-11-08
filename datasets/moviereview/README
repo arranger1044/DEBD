@@ -33,6 +33,18 @@ Type of variables:   Binary values.
                      '1' when the n-gram appears in the review, '0' when it does not.
 		     Last variable: '1' when the review is positive, '0' when it is not.
 
+Files
+=====
+
+For each dataset (training data, validation data and test data) there are the following files:
+
+ - moviereview.<dataset>.data
+      Each line is one example, the columns are comma-seperated
+ - moviereview.<dataset>.file
+      The filename of the original review for each example. The ordering of the examples is the same as in the .data file.
+ 
+
+words.txt contains one line per variable. It indicates to which n-gram the variable corresponds.
 
 
 Dataset Construction
