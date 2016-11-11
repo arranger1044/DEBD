@@ -1,0 +1,59 @@
+==============================
+|| MOVIE REVIEW BINARY DATA ||
+==============================
+
+This dataset contains 2000 movie reviews. For the 1000 most frequent non-trivial 1-grams and 2-grams in the training data, it is indicated if they appear in a review.
+
+The dataset is based on the "polarity_dataset_v2.0" of Pang and Lee (http://www.cs.cornell.edu/people/pabo/movie-review-data/).
+
+The dataset is used to show the strenght of Sentential Decision Diagrams for answering complex probability query in the following paper:
+
+@inproceedings{BekkerNIPS15,
+  author = "Bekker, Jessa and Davis, Jesse and Choi, Arthur and Darwiche, Adnan and Van den Broeck, Guy",
+  title = "Tractable Learning for Complex Probability Queries",
+  booktitle = "Advances in Neural Information Processing Systems 28 (NIPS)",
+  month = Dec,
+  year = "2015",
+}
+
+
+Dataset characteristics
+=======================
+
+Each example represents a review, each variable represents a 1-gram or 2-gram.
+
+Training Set Size:   1,600
+Validation Set Size: 150
+Test Set Size:       250
+
+Nb of variables:     1001
+
+
+Type of variables:   Binary values.
+                     '1' when the n-gram appears in the review, '0' when it does not.
+		     Last variable: '1' when the review is positive, '0' when it is not.
+
+Files
+=====
+
+For each dataset (training data, validation data and test data) there are the following files:
+
+ - moviereview.<dataset>.data
+      Each line is one example, the columns are comma-seperated
+ - moviereview.<dataset>.file
+      The filename of the original review for each example. The ordering of the examples is the same as in the .data file.
+ 
+
+words.txt contains one line per variable. It indicates to which n-gram the variable corresponds.
+
+
+Dataset Construction
+====================
+
+The dataset was constructed as follows:
+
+1) Stemming the reviews
+      The Porter stemmer (http://tartarus.org/martin/PorterStemmer/) was applied to all the reviews.
+
+2) Select most frequent n-grams
+      The Scikit Learn (http://scikit-learn.org/) CountVectorizer counted all 1- and 2-grams, while omitting the standard Scikit Learn stop words in the training data. The 1000 most frequent n-grams in the training data serve as the features.

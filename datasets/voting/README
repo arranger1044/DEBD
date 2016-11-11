@@ -1,0 +1,51 @@
+==========================================
+|| CONGRESSIONAL VOTING RECORD DATA SET ||
+==========================================
+
+This dataset contains all 1764 votes in the House of Representatives from the 110th Congress. Each bill is an example and the variables are the votes of the 453 congressmen, which can be yes, no, or unknown, where unknown consists of "not voted", "voted present" or "absent".
+
+The dataset is based on voting data from GovTrac.us.
+
+It is different from the UCI voting dataset because the rows and columns are switched (an example is a congressman vs a bill) and votes from a different Congress were used.
+
+The dataset is used to show the strenght of Sentential Decision Diagrams for answering complex probability query in the following paper:
+
+@inproceedings{BekkerNIPS15,
+  author = "Bekker, Jessa and Davis, Jesse and Choi, Arthur and Darwiche, Adnan and Van den Broeck, Guy",
+  title = "Tractable Learning for Complex Probability Queries",
+  booktitle = "Advances in Neural Information Processing Systems 28 (NIPS)",
+  month = Dec,
+  year = "2015",
+}
+
+
+Dataset characteristics
+=======================
+
+Each example represents a bill, each variable represents the vote of a congressman
+
+Training Set Size:   1,214
+Validation Set Size: 200
+Test Set Size:       350
+
+Nb of variables:     1,359
+
+
+Type of variables:   Binarized values.
+                     For each congressman there are three variables: "yes","no", and "unknown"
+                     The variable corresponding to his vote is set to '1' and the other two to '0'.
+                     
+Variable ordering:   cm1_yes, cm1_no, cm1_unkown, cm2_yes, cm2_no, cm2_unkown, cm3_yes, cm3_no, cm3_unkown, ...
+
+ 
+Files
+=====
+
+For each dataset (training data, validation data and test data) there are the following files:
+
+ - voting.<dataset>.data
+      Each line is one example, the columns are comma-seperated
+ - voting.<dataset>.wdata
+      Each line is a unique example. The line starts with a weight which indicates how many times this example appears in the dataset.
+
+voting_h110_people.info contains one line per congressman. It gives their id, name and party. The order of the congressmen is the same as the variable ordering in the datasets. For example, Neil Abercrombie is the first congressman of the info file, the first variable is that he voted "yes", the second that he voted "no" and the third variable that his vote is unknown.

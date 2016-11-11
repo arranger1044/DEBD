@@ -25,7 +25,9 @@ estimation.
 |**WebKB**<sup id="a1">[1](#f1)</sup>| binary | 839 | 2803 | 558 | 838 | 0.064|`cwebkb`|
 |**Reuters-52**<sup id="a1">[1](#f1)</sup>| binary | 889 | 6532 | 1028 | 1540 | 0.036|`cr52`|
 |**20 NewsGroup**<sup id="a1">[1](#f1)</sup>| binary | 910 | 11293 | 3764 | 3764 | 0.049|`c20ng`|
+|**Movie reviews**<sup id="a1">[3](#f3)</sup>| binary | 1001 | 1600 | 150 | 250 | 0.140 |`moviereview`|
 |**BBC**<sup id="a2">[2](#f2)</sup>| binary | 1058 | 1670 | 225 | 330 | 0.078|`bbc`|
+|**Voting**<sup id="a1">[3](#f3)</sup>| binary | 1359 | 1214 | 200| 350| 0.333|`voting`|
 |**Ad**<sup id="a2">[2](#f2)</sup>| binary | 1556 | 2461 | 327 | 491 | 0.008|`ad`|
 
 
@@ -37,5 +39,9 @@ Structure with Decision Trees*][Lowd2010]. ICDM 2010
 <b id="f2">2</b> Jan Van Haaren, Jesse Davis: [*Markov Network
 Structure Learning: A Randomized Feature Generation Approach*][VanHaaren2012]. AAAI 2012
 
+<b id="f3">3</b> Jessa Bekker, Jesse Davis, Arthur Choi, Adnan Darwiche, Guy Van den Broeck: [*Tractable Learning 
+for Complex Probability Queries*][Bekker2015]. NIPS 2015
+
 [Lowd2010]: http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
 [VanHaaren2012]: http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5107/5534
+[Bekker2015]: https://lirias.kuleuven.be/bitstream/123456789/513299/4/nips15_cr.pdf
