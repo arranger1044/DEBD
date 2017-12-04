@@ -3,6 +3,8 @@
 A collection of datasets used in machine learning for density
 estimation.
 
+If you use any of the datasets, you should cite their original papers.<sup id="a1">[1](#f1)</sup><sup id="a1">[2](#f2)</sup><sup id="a1">[3](#f3)</sup>
+
 ## Datasets
 
 |Dataset | type | #vars | #train | #valid | #test | density | abbrv |
