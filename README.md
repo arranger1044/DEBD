@@ -3,7 +3,7 @@
 A collection of datasets used in machine learning for density
 estimation.
 
-If you use any of the datasets, you should cite their original papers.<sup id="a1">[1](#f1)</sup><sup id="a1">[2](#f2)</sup><sup id="a1">[3](#f3)<sup id="a1">[4](#f4)</sup>
+If you use any of the datasets, you should cite their original papers.<sup id="a1">[1](#f1)</sup><sup id="a1">[2](#f2)</sup><sup id="a1">[3](#f3)</sup><sup id="a1">[4](#f4)</sup>
 
 ## Datasets
 
@@ -50,7 +50,7 @@ Structure Learning: A Randomized Feature Generation Approach*][VanHaaren2012]. A
 <b id="f3">3</b> Jessa Bekker, Jesse Davis, Arthur Choi, Adnan Darwiche, Guy Van den Broeck: [*Tractable Learning 
 for Complex Probability Queries*][Bekker2015]. NIPS 2015
 
-<b id="f4">3</b> Hugo Larochelle, Iain Murray: [*The Neural Autoregressive Distribution Estimator*][Larochelle2011]. AISTATS 2011
+<b id="f4">4</b> Hugo Larochelle, Iain Murray: [*The Neural Autoregressive Distribution Estimator*][Larochelle2011]. AISTATS 2011
 
 [Lowd2010]: http://ix.cs.uoregon.edu/~lowd/icdm10lowd.pdf
 [VanHaaren2012]: http://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5107/5534
